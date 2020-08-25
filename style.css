@@ -1,0 +1,98 @@
+* {
+    background: whitesmoke;
+    font-family: "Adobe Garamond Pro"; src: url("//db.onlinewebfonts.com/t/cde8cf60fc5af2eae40d1222d8bbd58e.eot");
+    animation: fade-in 3s;  
+}
+
+#nameHeader {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headers {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.display {
+    display: none;
+}
+
+.displayOn {
+    display: block;
+}
+.headers:hover {
+    animation: enlarge .5s forwards;
+}
+
+#linkFormat li a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#typing {
+    overflow:hidden;
+    border-right:.15em solid orange;
+    width: 100%;
+    white-space:wrap;
+    margin: 0 auto;
+    /* letter-spacing: .15em; */
+    animation:
+        typewriter 3.5s,
+        blinking-caret .75s step-end infinite;
+}
+
+@keyframes typewriter {
+    from {width:0;}
+    to{width: 100%}
+}
+
+@keyframes blinking-caret {
+    from, to {border-color: transparent}
+    50% {border-color:orange;}
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes enlarge {
+    from {
+        font-size:20px;
+    }
+    to {
+        font-size: 26px;
+    }
+}
+
+@media(min-width: 1200px) {
+    font-size: 5rem;
+}
+
+@media(max-width: 800px) {
+    font-size: 3rem;
+}
+
+@keyframes sidescroll {
+    from {
+        width: 0%;
+    }
+    
+    to {
+        width: 100%;
+    }
+}
+/*@import url(//db.onlinewebfonts.com/c/cde8cf60fc5af2eae40d1222d8bbd58e?family=Adobe+Garamond+Pro);
+
+
