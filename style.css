@@ -1,7 +1,7 @@
 * {
     background: whitesmoke;
     font-family: "Adobe Garamond Pro"; src: url("//db.onlinewebfonts.com/t/cde8cf60fc5af2eae40d1222d8bbd58e.eot");
-    animation: fade-in 3s;  
+    animation: fade-in 1s;  
 }
 
 #nameHeader {
@@ -36,16 +36,8 @@
     text-decoration: none;
 }
 
-#typing {
-    overflow:hidden;
-    border-right:.15em solid orange;
-    width: 100%;
-    white-space:wrap;
-    margin: 0 auto;
-    /* letter-spacing: .15em; */
-    animation:
-        typewriter 3.5s,
-        blinking-caret .75s step-end infinite;
+#sidescroll {
+    animation: sidescroll 4;
 }
 
 @keyframes typewriter {
@@ -76,14 +68,6 @@
     }
 }
 
-@media(min-width: 1200px) {
-    font-size: 5rem;
-}
-
-@media(max-width: 800px) {
-    font-size: 3rem;
-}
-
 @keyframes sidescroll {
     from {
         width: 0%;
@@ -93,6 +77,16 @@
         width: 100%;
     }
 }
+
+@media(min-width: 1200px) {
+    font-size: 5rem;
+}
+
+@media(max-width: 800px) {
+    font-size: 3rem;
+}
+
+
 /*@import url(//db.onlinewebfonts.com/c/cde8cf60fc5af2eae40d1222d8bbd58e?family=Adobe+Garamond+Pro);
 
 
