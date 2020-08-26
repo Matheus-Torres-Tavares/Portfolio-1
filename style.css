@@ -12,9 +12,26 @@
 
 .skills {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 }
 
+
+@media (max-width:500px) {
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        list-style-type:none;
+    }
+    
+    .skills ul {
+        list-style-type:none;
+        margin-right: 30px;
+    }
+ 
+}
 .headers {
     text-align: center;
     font-size: 20px;

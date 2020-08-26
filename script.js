@@ -23,7 +23,7 @@ document.querySelector('#qualifications').addEventListener('click', function () 
     } 
 })
 let txt = 'Junior Cloud Engineer with a focus on infrastructure, system architecture and operations. A strong interest in networking, web technologies, cybersecurity, process innovation, and business management. Nearly a decade of experience maintaining information systems including engagements at multinational corporations and small businesses with a focus on cloud architecture, system administration, technical writing, project management, and business administration. Responsible, self-directed, and able to quickly learn and apply complex concepts and processes.'
-let speed = 8;
+let speed = 3;
 
 
 let letter = 0
