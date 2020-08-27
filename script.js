@@ -51,4 +51,12 @@ function showVideo(items) {
 
 
     document.querySelector('#videoLocation').innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${randomVideo.id.videoId}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-} 
+}
+
+
+axios
+    .get(`https://ironrest.herokuapp.com/mia-aug2020-webdevs`)
+    .then((res) => {
+        for (let i of res.data)
+            console.log(i.first_name)
+    })
