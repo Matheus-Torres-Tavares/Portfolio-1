@@ -16,7 +16,7 @@
     </div>
     <div class="dropdown">
         <h3 class="headers" id="qualifications">Overview of Qualifications</h3>
-        <p class="skills  display" id=></p>
+        <p class="skills  display" id="sidescroll"></p>
     </div>
     <div class="dropdown">
         <h3 class="headers">Core Technical and Business Competencies</h3>
@@ -109,22 +109,46 @@
     </div>
     <div class="dropdown">
         <h3 class="headers">Listen to Music With me!</h3>
-        <button class="skills display" id="clickButton">click me!</button>
-        <div id="videoLocation"></div>
+        <div class="skills display columnar sidescroll">
+            <p>Classical music always has been --and always will be-- my passion. The violin was
+                my
+                first love, and I've grown to appreciate and admire the robust repertoire of pieces artists have
+                composed
+                for the instrument over the ages. Amongst them, violin concerti hold a special place in my heart. I now
+                invite you to enjoy a randomized selection of violin concertos being called from Youtube via the Google
+                API.
+            </p>
+            <button class="clickButton">click me!</button>
+            <div id="videoLocation"></div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <h3 class="headers">Contact Me</h3>
+        <div class="skills display columnar sidescroll">
+            <div>
+                <p>Feel free to reach out and contact me below with any inquiries.</p>
+                <form class=" sidescroll columnar" id="contact-form" method="post" action="">
+                    <input name="name" type="text" class="form-control sidescroll" placeholder="Your Name" required><br>
+
+                    <input name="email" type="email" class="form-control sidescroll" placeholder="Your Email"
+                        required><br>
+
+                    <textarea name="message" class="form-control sidescroll" id="msgBox"
+                        placeholder="Insert your Message here"></textarea><br>
+
+                    <input type="Submit" class="form-control submit sidescroll" value="SEND MESSAGE">
+
+                </form>
+            </div>
+        </div>
     </div>
     <footer class="dropdown">
         <h3 class="headers">Ironhack Web Development August 2020 Class</h4>
-            <ul class="skills display" id="linkFormat">
-                <li><a href="#">Fabian Pena</a></li>
-                <li><a href="#">Rabiul Alam</a></li>
-                <li><a href="#">Ashtyn C</a></li>
-                <li><a href="#">Jada Woody</a></li>
-                <li><a href="#">Matthew Angel</a></li>
-                <li><a href="#">Sebastian Grana</a></li>
-                <li><a href="#">Yachelle</a></li>
-                <li><a href="#">Rebecca Sell</a></li>
-                <li><a href="#">Anthony Gutilla</a></li>
-            </ul>
+            <div class="skills display columnar">
+                The following page links to the Ironhack Web Development class of August 2020. Check out their work!
+                <button class="clickButton" id="ironclass">Ironhack 2020</button>
+                <ul id="linkFormat2"></ul>
+            </div>
     </footer>
 
 </body>
