@@ -13,6 +13,22 @@
     animation: fade-in 2s;
 }
 
+#image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    animation: fade-in 5s;
+
+}
+
+#image:hover {
+    scale: 120%;
+    box-shadow: 5px 5px gray;
+    opacity: 0.8;
+
+
+}
+
 .dropdown {
     animation: fade-in 7s;
     animation-delay: 3
@@ -74,13 +90,13 @@
 
 
 #linkFormat li a {
-    color: darkblue;
+    color: darkblue !important;
     text-decoration: none;
     margin-right: 37px
 }
 
 #linkFormat2 li a {
-    color: darkblue;
+    color: darkblue !important;
     text-decoration: none;
 }
 
@@ -160,7 +176,7 @@
     }
 
     to {
-        color: ;
+        color: black;
     }
 }
 
